@@ -42,23 +42,24 @@
 				</section>
 
 				<section id="wikibase">
-					<h2>1. What is Wikibase?<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
-				</section>
-				<section>
-					<div>Wikimedia hosts many wikis...</div>
-					<img src="assets/wikimedia_projects.png" style="width: 60%;">
-				</section>
-				<section data-background-iframe="https://www.wikidata.org/wiki/Q458" data-background-interactive>
-					<div style="margin-bottom: 90%">Wikidata is one of them!</div>
-				</section>
-				<section data-background-iframe="https://wikiba.se" data-background-interactive>
-					<div style="margin-top: 40%">Wikibase is the software behind Wikidata</div>
+                    <section>
+					    <h2>What is Wikibase?<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
+                    </section>
+                    <section>
+                        <div>Wikimedia hosts many wikis...</div>
+                        <img src="assets/wikimedia_projects.png" style="width: 60%;">
+                    </section>
+                    <section data-background-iframe="https://www.wikidata.org/wiki/Q458" data-background-interactive>
+                        <div style="margin-bottom: 90%">Wikidata is one of them!</div>
+                    </section>
+                    <section data-background-iframe="https://wikiba.se" data-background-interactive>
+                        <div style="margin-top: 40%">Wikibase is the software behind Wikidata</div>
+                    </section>
 				</section>
 				<section data-background-interactive>
 					<h3>Wikibase architecture!</h3>
 					<img src="assets/Architecture%2520Wikibase.png" style="width: 80%;">
 				</section>
-
 
 				<section id="EUKG">
 					<h2>2. The EU Knowledge Graph<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
@@ -218,7 +219,7 @@
 					</section>
 					<section>
 						<h3> 3. Question Answering</h3>
-						<div>We allow to query and explore the KG using natural language</div>
+						<div>We allow to explore the KG using natural language</div>
 						<div>Available at <a href="https://qa.linkedopendata.eu">https://qa.linkedopendata.eu</a></div>
 					</section>
 					<section data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=buildings%20by%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
@@ -227,91 +228,55 @@
 					</section>
 					<section data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20director%20of%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
 					</section>
-					<section>
-						<h3> Can be integrated in chatbots</h3>
-						<div>Available at <a href="https://chatbot.cnect.eu/">https://chatbot.cnect.eu/</a></div>
-					</section>
-					<section data-background="assets/dori.png">
-					</section>
 				</section>
 				<section>
-					<h3>Use case: Kohesio</h3>
-					<h3>Transparency on programmes and projects co-funded by the EU</h3>
-				</section>
-				<section>
-					<h2>What is Kohesio?</h2>
-					<ul>
-						<li>Cohesion funds are managed together with national and local authorities in the 27 EU member states</li>
-						<li>The member states have a legal obligation to publish the list of projects and beneficiaries on their national websites</li>
-						<li>The goal of Kohesio is to aggregate this data and make it publicly available in an easy, open way</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Raw data</h2>
-					<ol>
-						<li>Hundreds of files in CSV, XLSX or XLS provided by EU member states</li>
-						<li>Reference data: intervention fields, thematic objectives, programmes, funds, NUTS, etc.</li>
-						<li>Wikidata</li>
-					</ol>
-				</section>
-				<section>
-					<h2>Enriching the data</h2>
-					<ol>
-						<li>Translating project labels and descriptions into English</li>
-						<li>Computing geographic coordinates based on postal code (geocoding)</li>
-						<li>Deducing in which NUTS region the project is located</li>
-						<li>Linking NUTS regions and beneficiaries with Wikidata</li>
-					</ol>
-				</section>
-				<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
-				</section>
-				<section>
-					<h2>Build a website for citizens on top</h2>
-					<div>Available at <a href="https://kohesio.eu">https://kohesio.eu</a> </div>
-				</section>
-				<section data-background-iframe="https://kohesio.eu" data-background-interactive>
-				</section>
-				<section>
-					<h2>To summarize</h2>
-					<ol>
-						<li>We integrated structured data from different sources into one uniform model</li>
-						<li>The data is enriched in various ways, thereby increasing its value</li>
-						<li>The data is openly accessible by citizens, showing the impact of EU funds in their region</li>
-					</ol>
-				</section>
-				<section id="compare">
-					<h2>3. Comparison with classical approach<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
-				</section>
-				<section>
-					<img src="assets/CompareWikibaseRDF.png" style="width: 80%;">
+                    <section>
+                        <h3>Use case: Kohesio</h3>
+                        <h3>Transparency on programmes and projects co-funded by the EU</h3>
+                    </section>
+                    <section>
+                        <h3>What is Kohesio?</h3>
+                        <ul>
+                            <li>Cohesion funds are managed together with national and local authorities in the 27 EU member states</li>
+                            <li>The member states have a legal obligation to publish the list of projects and beneficiaries on their national websites</li>
+                            <li>The goal of Kohesio is to aggregate this data and make it publicly available in an easy, open way</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Raw data</h3>
+                        <ol>
+                            <li>Hundreds of files in CSV, XLSX or XLS provided by EU member states</li>
+                            <li>Reference data: intervention fields, thematic objectives, programmes, funds, NUTS, etc.</li>
+                            <li>Wikidata</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h3>Enriching the data</h3>
+                        <ol>
+                            <li>Translating project labels and descriptions into English</li>
+                            <li>Computing geographic coordinates based on postal code (geocoding)</li>
+                            <li>Deducing in which NUTS region the project is located</li>
+                            <li>Linking NUTS regions and beneficiaries with Wikidata</li>
+                        </ol>
+                    </section>
+                    <section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
+                    </section>
+                    <section>
+                        <h3>Build a website for citizens on top</h3>
+                        <div>Available at <a href="https://kohesio.eu">https://kohesio.eu</a> </div>
+                    </section>
+                    <section data-background-iframe="https://kohesio.eu" data-background-interactive>
+                    </section>
 				</section>
 
-
-				<section id="inuse">
-					<h2>4. In-use Wikibase instances<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
-				</section>
-
-
-
-				<section id="conclusion">
-					<h2>Conclusion</h2>
-					<div style="float: left">We have shown:</div>
-					<ol>
-						<li>how Wikibase is used as the underlying infrastructure for the EU Knowledge Graph</li>
-						<li>the contents of the EU KG, how the data is ingested, maintained fresh and which services are offered</li>
-						<li>a concrete use case: Kohesio</a></li>
-					</ol>
-				</section>
+                <section>
+                    <h2>Comparison with classical approach</h2>
+                </section>
+                <section>
+                    <img src="assets/classical_vs_wikibase.png" style="border: none; box-shadow: none;">
+                </section>
 				<section>
-					<div>Acknowledgements:</div>
-					<ul>
-						<li>DORIS Team @ DG CNECT</li>
-						<li>Knowledge Management Team @ DG REGIO</li>
-						<li>Wikimedia Deutschland (WMDE)</li>
-					</ul>
-				</section>
-				<section ch="-1">
-					<div>Thank you! Questions?</div>
+					<div>(switch to WMDE slides???)</div>
 				</section>
 			</div>
 		</div>
