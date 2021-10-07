@@ -24,7 +24,7 @@
 					<div style="font-size: 25px; padding-top: 25px;">Max De Wilde (Université libre de Bruxelles / European Commission)</div>
 					<div style="font-size: 25px; padding-top: 25px;">Samantha Alipio (Wikimedia Deutschland)</div>
 					<!--<div style="font-size: 25px; padding-top: 25px;">@ISWC 2021</div>-->
-					<div style="font-size: 25px; padding-top: 25px;">??.10.2021</div>
+					<div style="font-size: 25px; padding-top: 25px;">October 2021</div>
                     <img src="assets/logo_QA.png" style="margin-top: 5%; height: 100px; border: none; box-shadow: none;">
 					<img src="assets/wmde.png" style="margin-top: 5%; height: 100px; border: none; box-shadow: none;">
 					<img src="assets/iswc_2021.jpg" style="margin-top: 5%; height: 80px; border: none; box-shadow: none; margin-left: 30px;">
@@ -33,7 +33,7 @@
                 <section>
 					<h2>Outline</h2>
 					<ol>
-                        <li><a href="#/wikibase">Wikibase as infrastructure</a></li>
+                        <li><a href="#/wikibase">Wikibase</a></li>
 						<li><a href="#/EUKG">The EU Knowledge Graph</a></li>
 						<li><a href="#/compare">Comparison with classical approach</a></li>
 						<li><a href="#/inuse">In-use Wikibase instances</a></li>
@@ -42,7 +42,7 @@
 				</section>
 
 				<section id="wikibase">
-					<h2>What is Wikibase?<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
+					<h2>1. What is Wikibase?<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
 				</section>
 				<section>
 					<div>Wikimedia hosts many wikis...</div>
@@ -54,10 +54,14 @@
 				<section data-background-iframe="https://wikiba.se" data-background-interactive>
 					<div style="margin-top: 40%">Wikibase is the software behind Wikidata</div>
 				</section>
+				<section data-background-interactive>
+					<h3>Wikibase architecture!</h3>
+					<img src="assets/Architecture%2520Wikibase.png" style="width: 80%;">
+				</section>
 
 
 				<section id="EUKG">
-					<h2>The EU Knowledge Graph<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
+					<h2>2. The EU Knowledge Graph<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
 				</section>
 				<section>
 					<div>A repository to store structured data<br>about the European Union</div>
@@ -110,50 +114,18 @@
 				</section>
 				<section>
 					<section>
-						<h3>Current content...</h3>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q171" data-background-interactive>
-						<div>European institutions</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q23" data-background-interactive>
-						<div>European countries</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q52" data-background-interactive>
-						<div>Capital cities</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q131" data-background-interactive>
-						<div>Heads of States</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q8361" data-background-interactive>
-						<div>Directorates-General (DGs)</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244787" data-background-interactive>
-						<div>Buildings</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q19837" data-background-interactive>
-						<div>942.289 projects co-funded by the European Union</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2509317" data-background-interactive>
-						<div>257.784 beneficiaries of EU funds</div>
-					</section>
-					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2837746" data-background-interactive>
-						<div>Linked Data Solutions</div>
-					</section>
-				</section>
-				<section>
-					<section>
 						<h3>Importing data...</h3>
 					</section>
 					<section>
 						<h3>1. Take any structured data</h3>
-							<img src="assets/buildings.png" style="width: 80%;">
+						<img src="assets/buildings.png" style="width: 80%;">
 					</section>
 					<section>
 						<h3>2. Model the data</h3>
 						<ul>
-						<li>We need entities like buildings, offices...</li>
-						<li>We need properties like address, opening hours, occupant...</li>
-						<li>Whenever possible, reuse Wikidata entities/properties or other existing ones</li>
+							<li>We need entities like buildings, offices...</li>
+							<li>We need properties like address, opening hours, occupant...</li>
+							<li>Whenever possible, reuse Wikidata entities/properties or other existing ones</li>
 						</ul>
 					</section>
 					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244596" data-background-interactive>
@@ -195,6 +167,39 @@
 						<div>Refreshed every 5 minutes!</div>
 					</section>
 				</section>
+				<section>
+					<section>
+						<h3>Current content...</h3>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q171" data-background-interactive>
+						<div>European institutions</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q23" data-background-interactive>
+						<div>European countries</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q52" data-background-interactive>
+						<div>Capital cities</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q131" data-background-interactive>
+						<div>Heads of States</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q8361" data-background-interactive>
+						<div>Directorates-General (DGs)</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244787" data-background-interactive>
+						<div>Buildings</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q19837" data-background-interactive>
+						<div>942.289 projects co-funded by the European Union</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2509317" data-background-interactive>
+						<div>257.784 beneficiaries of EU funds</div>
+					</section>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2837746" data-background-interactive>
+						<div>Linked Data Solutions</div>
+					</section>
+				</section>
+
 				<section>
 					<section>
 						<h3>Services provided...</h3>
@@ -274,6 +279,20 @@
 						<li>The data is openly accessible by citizens, showing the impact of EU funds in their region</li>
 					</ol>
 				</section>
+				<section id="compare">
+					<h2>3. Comparison with classical approach<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
+				</section>
+				<section>
+					<img src="assets/CompareWikibaseRDF.png" style="width: 80%;">
+				</section>
+
+
+				<section id="inuse">
+					<h2>4. In-use Wikibase instances<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
+				</section>
+
+
+
 				<section id="conclusion">
 					<h2>Conclusion</h2>
 					<div style="float: left">We have shown:</div>
