@@ -34,7 +34,7 @@
 					<div id="key2" class="cite" data-type="bib" ></div>
 				</section>
 				<!-- Outline -->
-				<section ch="0">
+				<section>
 					<h2>Outline</h2>
 					<ol>
 						<li><a href="#/general">Infrastructure: Wikibase</a></li>
@@ -45,114 +45,114 @@
 				</section>
 
 
-				<section ch="1" id="general">
+				<section id="general">
 					<h2>What is Wikibase?<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
 				</section>
-				<section ch="1">
+				<section>
 					<div>Wikimedia hosts many wikis...</div>
 					<img src="assets/wikimedia_projects.png" style="width: 60%;">
 				</section>
-				<section ch="1" data-background-iframe="https://www.wikidata.org/wiki/Q458" data-background-interactive>
+				<section data-background-iframe="https://www.wikidata.org/wiki/Q458" data-background-interactive>
 					<div style="margin-bottom: 90%">Wikidata is one of them!</div>
 				</section>
-				<section ch="1" data-background-iframe="https://wikiba.se" data-background-interactive>
+				<section data-background-iframe="https://wikiba.se" data-background-interactive>
 					<div style="margin-top: 40%">Wikibase is the software behind Wikidata</div>
 				</section>
 
 
-				<section ch="2" id="EUKG">
+				<section id="EUKG">
 					<h2>The EU Knowledge Graph<div style="vertical-align: top; font-size: smaller; display: inline;"></div></h2>
 				</section>
-				<section ch="2">
+				<section>
 					<div>A data repository to store structured data about the European Union</div>
 				</section>
-				<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/The_EU_Knowledge_Graph" data-background-interactive>
+				<section data-background-iframe="https://linkedopendata.eu/wiki/The_EU_Knowledge_Graph" data-background-interactive>
 					<div style="margin-top: 50%">Available at <a href="https://linkedopendata.eu/">https://knowledgegraph.eu/</a> </div>
 				</section>
 				<section>
-					<section ch="2">
+					<section>
 						<h3> Why using Wikibase?</h3>
 					</section>
-					<section ch="2">
+					<section>
 						<div>User-friendly</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q1" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q1" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Graph structure</div>
 					</section>
-					<section ch="2" data-background-iframe="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%0AWHERE%0A%7B%0A%20%20%3Fitem%20%3FpDirect%20%3FlinkTo%20.%0A%20%20VALUES%20%3Fitem%20%7B%20wd%3AQ458%20%7D%0A%20%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%20.%0A%20%20FILTER%28lang%28%3FitemLabel%29%3D%22en%22%29%0A%7D" data-background-interactive>
+					<section data-background-iframe="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%0AWHERE%0A%7B%0A%20%20%3Fitem%20%3FpDirect%20%3FlinkTo%20.%0A%20%20VALUES%20%3Fitem%20%7B%20wd%3AQ458%20%7D%0A%20%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%20.%0A%20%20FILTER%28lang%28%3FitemLabel%29%3D%22en%22%29%0A%7D" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Can be queried</div>
 					</section>
-					<section ch="2" data-background-iframe="https://query.linkedopendata.eu/#%20SELECT%20DISTINCT%20%3Fcountry%20%3Fpopulation%20WHERE%20%7B%20%0A%20%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ1%3E%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP104%3E%20%20%3Fo1%20.%20%0A%20%20%20%3Fo1%20rdfs%3Alabel%20%3Fcountry%20.%0A%20%20%20FILTER%20%28lang%28%3Fcountry%29%3D%22en%22%29%0A%20%20%20%3Fo1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP9%3E%20%20%3Fpopulation%20.%20%0A%20%7D%20%20order%20by%20desc%28%3Fpopulation%29" data-background-interactive>
+					<section data-background-iframe="https://query.linkedopendata.eu/#%20SELECT%20DISTINCT%20%3Fcountry%20%3Fpopulation%20WHERE%20%7B%20%0A%20%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ1%3E%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP104%3E%20%20%3Fo1%20.%20%0A%20%20%20%3Fo1%20rdfs%3Alabel%20%3Fcountry%20.%0A%20%20%20FILTER%20%28lang%28%3Fcountry%29%3D%22en%22%29%0A%20%20%20%3Fo1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP9%3E%20%20%3Fpopulation%20.%20%0A%20%7D%20%20order%20by%20desc%28%3Fpopulation%29" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Can be edited by humans and by bots</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q1" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q1" data-background-interactive>
 						<div style="z-index: 2"><a href="https://linkedopendata.eu/wiki/Item:Q1" target="_blank">https://linkedopendata.eu/wiki/Item:Q1</a></div>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Scales well</div>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Wikibase hosts Wikidata, one of the largest existing KG which contains 5 billion triples</div>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Multilingual</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q1" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q1" data-background-interactive>
 						<div><a style="z-index: 2" href="https://linkedopendata.eu/wiki/Item:Q1" target="_blank">https://linkedopendata.eu/wiki/Item:Q1</a></div>
 					</section>
-					<section ch="2">
+					<section>
 						<div>Full track of changes!</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q74781" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q74781" data-background-interactive>
 					</section>
 				</section>
 				<section>
-					<section ch="2">
+					<section>
 						<h3>Current content...</h3>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q171" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q171" data-background-interactive>
 						<div>European institutions</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q23" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q23" data-background-interactive>
 						<div>European countries</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q52" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q52" data-background-interactive>
 						<div>Capital cities</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q131" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q131" data-background-interactive>
 						<div>Heads of States</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q8361" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q8361" data-background-interactive>
 						<div>Directorates-General (DGs)</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244787" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244787" data-background-interactive>
 						<div>Buildings</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q19837" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q19837" data-background-interactive>
 						<div>942.289 projects co-funded by the European Union</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2509317" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2509317" data-background-interactive>
 						<div>257.784 beneficiaries of EU funds</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2837746" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2837746" data-background-interactive>
 						<div>Linked Data Solutions</div>
 					</section>
 				</section>
 				<section>
-					<section ch="2">
+					<section>
 						<h3>Importing data...</h3>
 					</section>
-					<section ch="2">
+					<section>
 						<h3>1. Take any structured data</h3>
 							<img src="assets/buildings.png" style="width: 80%;">
 					</section>
-					<section ch="2">
+					<section>
 						<h3>2. Model the data</h3>
 						<ul>
 						<li>We need entities like buildings, offices...</li>
@@ -160,91 +160,91 @@
 						<li>Whenever possible, reuse Wikidata entities/properties or other existing ones</li>
 						</ul>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244596" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q244596" data-background-interactive>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Property:P641" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Property:P641" data-background-interactive>
 					</section>
 
-					<section ch="2">
+					<section>
 						<h3> 3. Keep identifiers</h3>
 						<div> Use other identifiers so that one can use them to link to other resources!</div>
 					</section>
-					<section ch="2">
+					<section>
 						<h3> 4. Import using Wikibase APIs</h3>
 						<div> We always use Pywikibot</div>
 						<div> But there are alternatives...</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q242378" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q242378" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<div> The data imported understandable, aligned with existing concepts, queryable and easy to reuse</div>
 					</section>
 				</section>
 				<section>
-					<section ch="2">
+					<section>
 						<h3> Keeping the data fresh...</h3>
 					</section>
-					<section ch="2">
+					<section>
 						<h3> 1. Entities imported from Wikidata</h3>
 					</section>
-					<section ch="2" data-background-iframe="https://www.wikidata.org/wiki/Q38" data-background-interactive>
+					<section data-background-iframe="https://www.wikidata.org/wiki/Q38" data-background-interactive>
 						<div style="margin-bottom: 90%">Wikidata</div>
 					</section>
-					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q15" data-background-interactive>
+					<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q15" data-background-interactive>
 						<div style="margin-bottom: 90%">EU Knowledge Graph</div>
 					</section>
-					<section ch="2">
+					<section>
 						<h3 style="text-transform: none;">WikidataUpdater</h3>
 						<div>A bot that checks that the data is synchronised</div>
 						<div>Refreshed every 5 minutes!</div>
 					</section>
 				</section>
 				<section>
-					<section ch="2">
+					<section>
 						<h3>Services provided...</h3>
 					</section>
-					<section ch="2">
+					<section>
 						<h3> 1. Data exports</h3>
 						<div>Available at <a href="https://data.linkedopendata.eu">https://data.linkedopendata.eu</a></div>
 					</section>
-					<section ch="2" data-background-iframe="https://data.linkedopendata.eu" data-background-interactive>
+					<section data-background-iframe="https://data.linkedopendata.eu" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<h3> 2. Query Service</h3>
 						<div>Available at <a href="https://query.linkedopendata.eu">https://query.linkedopendata.eu</a></div>
 					</section>
-					<section ch="2" data-background-iframe="https://query.linkedopendata.eu/#%23defaultView%3AMap%20%0ASELECT%20DISTINCT%20%3Fs1%20%3Fcoordinates%20WHERE%20%7B%0A%20%20%20%20%20%3Fs1%20%20%3Fp1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ63%3E%20.%20%0A%09%20%3Fs1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP35%3E%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ8636%3E%20.%20%0A%20%20%20%20%20%3Fs1%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP127%3E%20%3Fcoordinates%20.%0A%20%7D%20%20LIMIT%201000" data-background-interactive>
+					<section data-background-iframe="https://query.linkedopendata.eu/#%23defaultView%3AMap%20%0ASELECT%20DISTINCT%20%3Fs1%20%3Fcoordinates%20WHERE%20%7B%0A%20%20%20%20%20%3Fs1%20%20%3Fp1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ63%3E%20.%20%0A%09%20%3Fs1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP35%3E%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ8636%3E%20.%20%0A%20%20%20%20%20%3Fs1%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP127%3E%20%3Fcoordinates%20.%0A%20%7D%20%20LIMIT%201000" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<h3> 3. Question Answering</h3>
 						<div>We allow to query and explore the KG using natural language</div>
 						<div>Available at <a href="https://qa.linkedopendata.eu">https://qa.linkedopendata.eu</a></div>
 					</section>
-					<section ch="2" data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=buildings%20by%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
+					<section data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=buildings%20by%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
 					</section>
-					<section ch="2" data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20president%20of%20france&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
+					<section data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20president%20of%20france&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
 					</section>
-					<section ch="2" data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20director%20of%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
+					<section data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20director%20of%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
 					</section>
-					<section ch="2">
+					<section>
 						<h3> Can be integrated in chatbots</h3>
 						<div>Available at <a href="https://chatbot.cnect.eu/">https://chatbot.cnect.eu/</a></div>
 					</section>
-					<section ch="4" data-background="assets/dori.png">
+					<section data-background="assets/dori.png">
 					</section>
 				</section>
-				<section ch="3" id="kohesio">
+				<section id="kohesio">
 					<h2>Kohesio</h2>
 					<h3>Transparency on programmes and projects co-funded by the EU</h3>
 				</section>
-				<section ch="3">
+				<section>
 					<h2>EU Cohesion Policy</h2>
 					<ul>
 						<li>EU Cohesion Policy supports every year tens of thousands of projects across Europe</li>
 						<li>Cohesion Policy makes up approximately 32.5 % of the EU budget 2014-2020 (about 350 billion euros)</li>
 					</ul>
 				</section>
-				<section ch="3">
+				<section>
 					<h2>What is Kohesio?</h2>
 					<ul>
 						<li>Cohesion funds are managed together with national and local authorities in the 27 EU member states</li>
@@ -252,7 +252,7 @@
 						<li>The goal of Kohesio is to aggregate this data and make it publicly available in an easy, open way</li>
 					</ul>
 				</section>
-				<section ch="3">
+				<section>
 					<h2>Data</h2>
 					<ol>
 						<li>Dozens of files in CSV, XLSX or XLS describing the projects of EU member states</li>
@@ -261,9 +261,9 @@
 						<li>Wikidata</li>
 					</ol>
 				</section>
-				<section ch="3" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
+				<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
 				</section>
-				<section ch="3">
+				<section>
 					<h2>Enriching the data</h2>
 					<ol>
 						<li>Translating project labels and descriptions into English</li>
@@ -272,15 +272,15 @@
 						<li>Linking NUTS regions and beneficiaries with Wikidata</li>
 					</ol>
 				</section>
-				<section ch="3" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
+				<section data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
 				</section>
-				<section ch="3">
+				<section>
 					<h2>Build a website for citizens on top</h2>
 					<div>Available at <a href="https://kohesio.eu">https://kohesio.eu</a> </div>
 				</section>
-				<section ch="3" data-background-iframe="https://kohesio.eu" data-background-interactive>
+				<section data-background-iframe="https://kohesio.eu" data-background-interactive>
 				</section>
-				<section ch="3">
+				<section>
 					<h2>To summarize</h2>
 					<ol>
 						<li>We integrated structured data from different sources into one uniform model</li>
@@ -288,7 +288,7 @@
 						<li>The data is openly accessible by citizens, showing the impact of EU funds in their region</li>
 					</ol>
 				</section>
-				<section id="conclusion" ch="4">
+				<section id="conclusion">
 					<h2>Conclusion</h2>
 					<div style="float: left">We have shown:</div>
 					<ol>
@@ -297,7 +297,7 @@
 						<li>a concrete use case: Kohesio</a></li>
 					</ol>
 				</section>
-				<section ch="0">
+				<section>
 					<div>Acknowledgements:</div>
 					<ul>
 						<li>DORIS Team @ DG CNECT</li>
